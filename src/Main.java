@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Введите путь к файлу: ");
         String filePath = scanner.nextLine();
         if (filePath.isEmpty()){
-            System.out.println("Используется файл по умолчанию: Persons.txt");
+            System.out.println("Используется файл по умолчанию: Clients.txt");
             filePath = "Clients.txt";
         }
 
