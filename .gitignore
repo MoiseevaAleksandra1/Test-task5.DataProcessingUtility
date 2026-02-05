@@ -1,29 +1,36 @@
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Compiled class files
+*.class
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Log files
+*.log
 
-### VS Code ###
-.vscode/
+# Output files
+Report.txt
+report.txt
 
-### Mac OS ###
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# System files
 .DS_Store
+Thumbs.db
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
