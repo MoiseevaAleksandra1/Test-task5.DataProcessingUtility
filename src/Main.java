@@ -8,7 +8,7 @@ public class Main {
         String filePath = scanner.nextLine();
         if (filePath.isEmpty()){
             System.out.println("Используется файл по умолчанию: Clients.txt");
-            filePath = "Clients.txt";
+            filePath = "C:\\Severstal\\DataProcessingUtility\\Clients.txt";
         }
 
         ArrayList<Person> persons = FileService.readFromFile(filePath);
